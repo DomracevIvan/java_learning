@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class CaNoBu {
     public static void main(String[] args) {
+        System.out.println("2 4 6 8");
+
         Scanner sc = new Scanner(System.in);
         String playAgain;
+
 
         do {
             System.out.println("Выберите фигуру - 0 - камень, 1 - ножницы, 2 - бумага.");
